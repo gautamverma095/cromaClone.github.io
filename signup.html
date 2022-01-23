@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link
+      rel="shortcut icon"
+      href="https://lh3.googleusercontent.com/Hh_QKiJDmg2LQdL2aJ3cw_hBnWyH6dEqaFsiOgLNAZ6XnpPVuvrBCSeNzKQA8GCk519H=s180"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div id = "pw2">
+        <div id = "main">
+            <h2>Sign up required</h2>
+            <h4>We could not find this number in our records. Create a new account using this number</h4>
+            <input id = "mobile" type="tel" placeholder="Enter Mobile Number">
+            <div id = "hr"></div>
+            <p id = "show"></p>
+            <div id = "bottem">
+                <p id = "empty"></p>
+                <button onclick = "signUp()" id = "button">VERIFY MOBILE NUMBER</button>
+                <br>
+                <div id = "check_div">
+                    <input id = "check_box" class = "check" checked = "checked" type="checkbox">
+                     <label>Keep me signed in</label>
+                     
+                </div>
+                
+                <p id = "p2">Existing user? <a href="signin.html">Login</a></p>
+                <h4>By continuing you agree to our <a>Terms of Use</a> & <a>Privacy Policy</a></h4>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
+<script src = "signup.js"></script>

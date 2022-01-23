@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP</title>
+    <link
+      rel="shortcut icon"
+      href="https://lh3.googleusercontent.com/Hh_QKiJDmg2LQdL2aJ3cw_hBnWyH6dEqaFsiOgLNAZ6XnpPVuvrBCSeNzKQA8GCk519H=s180"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="otp.css">
+    
+</head>
+<body>
+    <div id = "pw2">
+        <div id = "mainOtp">
+            <h2>Enter OTP</h2>
+            <h4 id = "success">OTP sent successfully to </h4>
+            <div id = "bottem">
+                <input id = "otp" type="" maxlength = "4" placeholder="">
+                <div id = "underlines">
+                    <div class = "under "></div>
+                    <div class = "under line"></div>
+                    <div class = "under line"></div>
+                    <div class = "under line"></div>
+                </div>
+                <button onclick = "otpCheck()" id = "button">VALIDATE OTP</button>
+                
+                <p id = "p3">This OTP is valid for 15 minutes</p>
+                <h4>Didn't Receive Your OTP? <span id = "validMsg"></span><a id = "receive" onclick = "sendOtp()"></a> </h4>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
+<script src = "otp.js"></script>
+

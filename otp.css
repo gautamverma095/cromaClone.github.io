@@ -1,0 +1,129 @@
+#mainOtp {
+    width:300px;
+    
+    border: 1px solid #353535;
+    border-radius: 10px;
+    background-color: #121212;
+    margin: auto;
+    margin-top: 60px;
+    color:white;
+    padding:60px 100px;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-image: url("https://lh3.googleusercontent.com/pw/AM-JKLX7fxBuvSSpZuRxyMJLKamOrgYiIazget_inE2RHhpDz9wkTOxtDKNNv-D243xaWdWDJEQfBNx4MyLKJT4IXGs0WHlTx_LOSOUeBDmaqlcu4T9_c0Qps96gtVBxM5iB61Ls7LtK1eB4oRssRjczox0AHA=w1339-h617-no");
+    background-size: cover;
+    background-size: 100%;
+    
+    
+}
+#pw2{
+    width: 100%;
+    height:100%;
+    background: rgb(22 21 21 / 82%)
+}
+
+#otp {
+    color:white;
+    font-size: 22px;
+    background-color: transparent;
+    border: none;
+    width:70%;
+    padding-left:11% ;
+    letter-spacing:43px;
+    
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color:#a1a1a1;
+    border-color: transparent;
+
+}
+
+a{
+    color: turquoise;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+#bottem {
+    margin-top: 30px;
+    text-align: center;
+    
+}
+
+#p3 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+body {
+    background-color:transparent;
+}
+
+#otp:focus {
+    outline: none;
+}
+#underlines {
+    margin:auto;
+    width:60%;
+    display: flex;
+    padding-left: 0px;
+    
+
+}
+
+.under {
+    width:20px;
+    border:1px solid white;
+    
+}
+.line {
+    margin-left: 20%;
+}
+#validMsg {
+    font-size: small;
+    font-family: "fantasy";
+    
+}
+
+@media only screen and (min-width:0px) and (max-width:640px) {
+    #mainOtp {
+        width:80%; 
+        height:auto;                                                     
+        padding: 40px 20px;
+    }
+    
+     
+    #otp {
+        width:230px;
+        padding-left:11%;
+        letter-spacing: 45px;
+    }
+    .under {
+        width:20px;
+        border:1px solid white;
+        
+    }
+    #underlines {
+        width:190px
+    }
+    .line {
+        margin-left: 18%;
+    }
+
+    label{
+        margin-top: 20px;
+        font-size: 10px;
+    }
+    #check_div label::before {
+        width:18px;
+        height:18px;
+        
+    
+    }
+}
